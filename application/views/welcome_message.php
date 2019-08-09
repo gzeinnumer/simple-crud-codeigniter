@@ -151,6 +151,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		</code>
 		<p>database sesuaikan dengan name yang kita pakai untuk nama databasenya.</p>
 		<br>
+		<p>Lalu ubah code di autoload.php dalam folder config:</p>
+		<code>
+		$autoload['libraries'] = array('database','form_validation','session');<br>
+		$autoload['helper'] = array('url');<br>
+		</code>
+		<br>
 
 		<p>Untuk melihat table, silahkan akses link ini.</p>
 		<code>http://localhost/simple-crud-codeigniter/crud/</code>

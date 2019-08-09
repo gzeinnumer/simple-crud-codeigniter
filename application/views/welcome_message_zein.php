@@ -67,6 +67,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </head>
 <body>
 
+
 <div id="container">
 	<h1>Welcome to CRUD page! Hy I Am Zein!</h1>
 
