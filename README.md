@@ -12,8 +12,7 @@ simple-crud-codeigniter
 ```
 
 Import database
-```
-```
+[simple-crud-codeigniter.sql](https://github.com/gzeinnumer/simple-crud-codeigniter/blob/master/simple-crud-codeigniter.sql)
 
 ---
 
