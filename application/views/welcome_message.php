@@ -77,7 +77,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<code>application/config/config.php</code>
 		<p>ubah bagian berikut</p>
 		<code>$config['base_url'] = 'http://localhost/simple-crud-codeigniter/';</code>
-		<br>
 		<p>Secara default link akan mengikut sertakan index.php pada setiap pemanggilan controllernya. seperti:</p>
 		<code>$config['base_url'] = 'http://localhost/simple-crud-codeigniter/index.php/controller';</code>
 		<p>Tapi bisa dihilangkan dengan cara mengubah kode berikut pada config.php:</p>
@@ -145,7 +144,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				'hostname' => 'localhost',<br>
 				'username' => 'root',<br>
 				'password' => '',<br>
-				'database' => 'db_simple_ci_crud',<br>
+				'database' => 'simple-crud-codeigniter',<br>
 				//...<br>
 			);
 		</code>
@@ -159,7 +158,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<br>
 
 		<p>Untuk melihat table, silahkan akses link ini.</p>
-		<code>http://localhost/simple-crud-codeigniter/crud/</code>
+		<code>http://localhost:8080/simple-crud-codeigniter/crud_c/</code>
 
 	</div>
 

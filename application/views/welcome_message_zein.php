@@ -75,7 +75,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<p>Page ini berisi link untuk mengakses controller</p>
 
 		<p>tampilkan semua data</p>
-		<code>http://localhost/simple-crud-codeigniter/crud/do_list/</code>
+		<code>http://localhost:8080/simple-crud-codeigniter/crud_c/list</code>
 		
 
 	</div>
