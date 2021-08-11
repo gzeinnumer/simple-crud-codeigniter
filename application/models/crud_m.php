@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class crud_m extends CI_Model {
 
-    public function __construct(Type $var = null) {
+    public function __construct() {
         parent::__construct();
         $this->load->database();
     }
@@ -15,7 +15,12 @@ class crud_m extends CI_Model {
         $this->db->order_by("id","desc");
         $query = $this->db->get();
         return $query->result();
+
+        // $sql = "select * from users order by id desc;";
+        // $query = $this->db->query($sql);
+        // return $query->get()->result_array();
     }
+
     public function add($data){
         $this->db->insert('users', $data);
     }

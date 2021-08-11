@@ -50,6 +50,7 @@ class crud_c extends CI_Controller {
             redirect(base_url('crud_c/list/'),'refresh');
         }
     }
+    
     public function delete($id){
         $data = array('id' => $id);
         $this->crud_m->delete($data);
